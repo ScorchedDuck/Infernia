@@ -1,9 +1,21 @@
 {
   "item.infernia.bismuth": "Bismuth",
   "item.infernia.raw_bismuth": "Raw Bismuth",
+  "item.infernia.scorched_nugget": "Scorched Nugget",
+  "item.infernia.scorched_ingot": "Scorched Ingot",
+  "item.infernia.sapphire": "Sapphire",
+  "item.infernia.ruby": "Ruby",
+  "item.infernia.raw_sapphire": "Raw Sapphire",
+  "item.infernia.raw_ruby": "Raw Ruby",
 
   "block.infernia.bismuth_block": "Block of Bismuth",
   "block.infernia.bismuth_ore": "Bismuth Ore",
+  "block.infernia.scorched_block": "Scorched Block",
+  "block.infernia.scorched_ore": "Scorched Ore",
+  "block.infernia.sapphire_block": "Sapphire Block",
+  "block.infernia.sapphire_ore": "Sapphire Ore",
+  "block.infernia.ruby_block": "Ruby Block",
+  "block.infernia.ruby_ore": "Ruby Ore",
 
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",

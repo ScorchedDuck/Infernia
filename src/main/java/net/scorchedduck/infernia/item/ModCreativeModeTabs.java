@@ -23,6 +23,12 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.RAW_SAPPHIRE);
+                        output.accept(ModItems.RAW_RUBY);
+                        output.accept(ModItems.RUBY);
+                        output.accept(ModItems.SAPPHIRE);
+                        output.accept(ModItems.SCORCHED_INGOT);
+                        output.accept(ModItems.SCORCHED_NUGGET);
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_BLOCKS_TAB = CREATIVE_MODE_TAB.register("infernia_blocks_tab",
@@ -32,6 +38,12 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BISMUTH_ORE);
                         output.accept(ModBlocks.BISMUTH_BLOCK);
+                        output.accept(ModBlocks.SCORCHED_BLOCK);
+                        output.accept(ModBlocks.SCORCHED_ORE);
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK);
+                        output.accept(ModBlocks.SAPPHIRE_ORE);
+                        output.accept(ModBlocks.RUBY_BLOCK);
+                        output.accept(ModBlocks.RUBY_ORE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_ENTITIES_TAB = CREATIVE_MODE_TAB.register("infernia_enities_tab",
