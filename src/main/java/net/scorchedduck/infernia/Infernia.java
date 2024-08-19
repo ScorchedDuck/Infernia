@@ -1,6 +1,8 @@
 package net.scorchedduck.infernia;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.scorchedduck.infernia.block.ModBlocks;
+import net.scorchedduck.infernia.item.ModCreativeModeTabs;
 import net.scorchedduck.infernia.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,7 +39,10 @@ public class Infernia {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -51,10 +56,6 @@ public class Infernia {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BISMUTH);
-            event.accept(ModItems.RAW_BISMUTH);
-        }
 
     }
 

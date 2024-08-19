@@ -1,4 +1,11 @@
 {
   "item.infernia.bismuth": "Bismuth",
-  "item.infernia.raw_bismuth": "Raw Bismuth"
+  "item.infernia.raw_bismuth": "Raw Bismuth",
+
+  "block.infernia.bismuth_block": "Block of Bismuth",
+  "block.infernia.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.infernia.infernia_items": "Infernia Items",
+  "creativetab.infernia.infernia_blocks": "Infernia Blocks",
+  "creativetab.infernia.infernia_enities": "Infernia Enities"
 }
