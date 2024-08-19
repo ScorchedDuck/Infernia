@@ -44,13 +44,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_ORE);
                         output.accept(ModBlocks.RUBY_BLOCK);
                         output.accept(ModBlocks.RUBY_ORE);
+                        output.accept(ModBlocks.RAW_RUBY_BLOCK);
+                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
+                        output.accept(ModBlocks.RAW_BISMUTH_BLOCK);
                     }).build());
 
-    public static final Supplier<CreativeModeTab> INFERNIA_ENTITIES_TAB = CREATIVE_MODE_TAB.register("infernia_enities_tab",
+    public static final Supplier<CreativeModeTab> INFERNIA_ENTITIES_TAB = CREATIVE_MODE_TAB.register("infernia_entities_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BISMUTH_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "infernia_blocks_tab"))
                     .title(Component.translatable("creativetab.infernia.infernia_entities"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.BISMUTH);
                     }).build());
 
 

@@ -37,6 +37,11 @@ public class ModBlocks {
             () -> new Block((BlockBehaviour.Properties.of()
                     .strength(7f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(2f))));
 
+    //raw sapphire block
+    public static final DeferredBlock<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
+            () -> new Block((BlockBehaviour.Properties.of()
+                    .strength(7f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(2f))));
+
     //sapphire ore - done
     public static final DeferredBlock<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(UniformInt.of(5, 10),
@@ -47,6 +52,11 @@ public class ModBlocks {
             () -> new Block((BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(15f))));
 
+    //raw ruby block
+    public static final DeferredBlock<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+            () -> new Block((BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(15f))));
+
     //ruby ore - done
     public static final DeferredBlock<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(UniformInt.of(5, 10),
@@ -54,6 +64,11 @@ public class ModBlocks {
 
     //bismuth block - done
     public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
+            () -> new Block((BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(6f))));
+
+    //raw bismuth block
+    public static final DeferredBlock<Block> RAW_BISMUTH_BLOCK = registerBlock("raw_bismuth_block",
             () -> new Block((BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(6f))));
 
