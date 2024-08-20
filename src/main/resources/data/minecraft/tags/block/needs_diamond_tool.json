@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "infernia:bismuth_block",
+    "infernia:bismuth_ore",
+    "infernia:raw_bismuth_block",
+    "infernia:scorched_block",
+    "infernia:scorched_ore"
+  ]
+}

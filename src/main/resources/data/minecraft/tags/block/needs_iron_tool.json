@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "infernia:ruby_block",
+    "infernia:ruby_ore",
+    "infernia:raw_ruby_block",
+    "infernia:sapphire_block",
+    "infernia:sapphire_ore",
+    "infernia:raw_sapphire_block"
+  ]
+}
