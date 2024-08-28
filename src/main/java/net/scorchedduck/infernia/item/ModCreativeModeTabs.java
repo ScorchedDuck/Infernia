@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE);
                         output.accept(ModItems.SCORCHED_INGOT);
                         output.accept(ModItems.SCORCHED_NUGGET);
+                        output.accept(ModItems.CHISEL);
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_BLOCKS_TAB = CREATIVE_MODE_TAB.register("infernia_blocks_tab",
@@ -47,6 +48,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_RUBY_BLOCK);
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
                         output.accept(ModBlocks.RAW_BISMUTH_BLOCK);
+                        output.accept(ModBlocks.MOD_COOKER_BLOCK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_ENTITIES_TAB = CREATIVE_MODE_TAB.register("infernia_entities_tab",

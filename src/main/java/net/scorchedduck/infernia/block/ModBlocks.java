@@ -12,6 +12,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.scorchedduck.infernia.Infernia;
+import net.scorchedduck.infernia.block.custom.ModCookerBlock;
 import net.scorchedduck.infernia.item.ModItems;
 import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
@@ -76,6 +77,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(7f)));
+
+    //mod cooker block - done
+    public static final DeferredBlock<Block> MOD_COOKER_BLOCK = registerBlock("mod_cooker_block",
+            () -> new ModCookerBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 
     private  static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

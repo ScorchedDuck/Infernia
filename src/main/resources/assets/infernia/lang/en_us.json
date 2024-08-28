@@ -7,6 +7,7 @@
   "item.infernia.ruby": "Ruby",
   "item.infernia.raw_sapphire": "Raw Sapphire",
   "item.infernia.raw_ruby": "Raw Ruby",
+  "item.infernia.chisel": "Chisel",
 
   "block.infernia.bismuth_block": "Block of Bismuth",
   "block.infernia.bismuth_ore": "Bismuth Ore",
@@ -19,6 +20,7 @@
   "block.infernia.raw_ruby_block": "Raw Ruby Block",
   "block.infernia.raw_sapphire_block": "Raw Sapphire Block",
   "block.infernia.raw_bismuth_block": "Raw Bismuth Block",
+  "block.infernia.mod_cooker_block": "Mod Cooker Block",
 
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",
