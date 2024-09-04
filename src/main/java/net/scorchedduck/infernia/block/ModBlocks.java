@@ -27,7 +27,12 @@ public class ModBlocks {
             () -> new Block((BlockBehaviour.Properties.of()
                     .strength(8f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(10f))));
 
-    //scorched ore - done
+    //starlight - done
+    public static final DeferredBlock<Block> STARLIGHT = registerBlock("starlight",
+            () -> new Block((BlockBehaviour.Properties.of()
+                    .strength(8f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(10f))));
+
+    //scorched ore - done / needs new texture
     public static final DeferredBlock<Block> SCORCHED_ORE = registerBlock("scorched_ore",
             () -> new DropExperienceBlock(UniformInt.of(5, 10),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE).explosionResistance(12f)));

@@ -8,6 +8,9 @@
   "item.infernia.raw_sapphire": "Raw Sapphire",
   "item.infernia.raw_ruby": "Raw Ruby",
   "item.infernia.chisel": "Chisel",
+  "item.infernia.radish": "Radish",
+  "item.infernia.frostfire_ice": "Frostfire Ice",
+  "item.infernia.starlight_ashes": "Starlight Ashes",
 
   "block.infernia.bismuth_block": "Block of Bismuth",
   "block.infernia.bismuth_ore": "Bismuth Ore",
@@ -21,8 +24,13 @@
   "block.infernia.raw_sapphire_block": "Raw Sapphire Block",
   "block.infernia.raw_bismuth_block": "Raw Bismuth Block",
   "block.infernia.mod_cooker_block": "Mod Cooker Block",
+  "block.infernia.starlight": "Starlight",
 
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",
-  "creativetab.infernia.infernia_entities": "Infernia Entities"
+  "creativetab.infernia.infernia_entities": "Infernia Entities",
+
+  "tooltip.infernia.mod_cooker_block.tooltip": "Can cook certain things",
+  "tooltip.inerfnia.chisel.shift_down": "Can turn certain blocks to their brick variant",
+  "tooltip.infernia.chisel.shift_up": "Press shift for more info"
 }
