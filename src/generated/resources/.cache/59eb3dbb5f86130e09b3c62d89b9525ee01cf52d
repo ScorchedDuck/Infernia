@@ -1,0 +1,14 @@
+// 1.21.1	2024-09-11T19:23:10.9317177	Loot Tables
+4682425d45097221d59255db706f0d8aae9b1f9d data/infernia/loot_table/blocks/bismuth_block.json
+ad988448dc38d7005f0fb33926cd79174d0493dd data/infernia/loot_table/blocks/bismuth_ore.json
+eaa7f7d64d87489ae995a64632f845130ddca90f data/infernia/loot_table/blocks/mod_cooker_block.json
+d88fb6a0d1b984f74861d4aca6520c34e645299d data/infernia/loot_table/blocks/raw_bismuth_block.json
+af4c09d03f53514b3c3134127fb7d47c560d27fb data/infernia/loot_table/blocks/raw_ruby_block.json
+0f94985ae86510b63181f9a444f8aa41108041d9 data/infernia/loot_table/blocks/raw_sapphire_block.json
+67588874dc8c40f062cd33a992a7aadb44156eef data/infernia/loot_table/blocks/ruby_block.json
+5dd40265cd1ccdf120129081c6774a6cc2f4eb69 data/infernia/loot_table/blocks/ruby_ore.json
+560206860d1911a0b2d7362490974c35580c1e6f data/infernia/loot_table/blocks/sapphire_block.json
+e568613fbdc6e929c29c8eefbb32021ff7ade0b5 data/infernia/loot_table/blocks/sapphire_ore.json
+79f2a8a3f776b590e967765c6efd360306e520e4 data/infernia/loot_table/blocks/scorched_block.json
+654a4f03591a07e34e7075ba0ea9ec768496fb07 data/infernia/loot_table/blocks/scorched_ore.json
+8f8b139b58e81863727a634df801f16c58a6b75d data/infernia/loot_table/blocks/starlight.json

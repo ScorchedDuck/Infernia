@@ -10,6 +10,7 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -17,6 +18,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.scorchedduck.infernia.block.ModBlocks;
 import net.scorchedduck.infernia.item.ModItems;
+import net.scorchedduck.infernia.util.ModTags;
 
 import java.util.List;
 
@@ -39,6 +41,10 @@ public class ModCookerBlock extends Block {
                 itemEntity.setItem(new ItemStack(ModItems.BISMUTH.get(), itemEntity.getItem().getCount()));
             }
 
+            if (isValidItem(itemEntity.getItem())) {
+                itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
+            }
+
 
             if (itemEntity.getItem().getItem() == ModItems.RAW_SAPPHIRE.get()) {
                 itemEntity.setItem(new ItemStack(ModItems.SAPPHIRE.get(), itemEntity.getItem().getCount()));
@@ -56,6 +62,10 @@ public class ModCookerBlock extends Block {
 
 
         super.stepOn(level, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override

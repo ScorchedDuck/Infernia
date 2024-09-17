@@ -1,0 +1,17 @@
+{
+  "values": [
+    "infernia:bismuth_block",
+    "infernia:raw_bismuth_block",
+    "infernia:bismuth_ore",
+    "infernia:sapphire_block",
+    "infernia:sapphire_ore",
+    "infernia:raw_sapphire_block",
+    "infernia:ruby_block",
+    "infernia:ruby_ore",
+    "infernia:raw_ruby_block",
+    "infernia:scorched_block",
+    "infernia:scorched_ore",
+    "infernia:starlight",
+    "infernia:mod_cooker_block"
+  ]
+}
