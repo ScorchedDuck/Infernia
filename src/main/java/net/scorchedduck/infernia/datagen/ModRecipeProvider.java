@@ -3,6 +3,8 @@ package net.scorchedduck.infernia.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -20,8 +22,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
+
         List<ItemLike> BISMUTH_SMELTABLES = List.of(ModItems.RAW_BISMUTH,
                 ModBlocks.BISMUTH_ORE);
+
+        List<ItemLike> SAPPHIRE_SMELTABLES = List.of(ModItems.RAW_SAPPHIRE,
+                ModBlocks.SAPPHIRE_ORE);
+
+        List<ItemLike> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY,
+                ModBlocks.RUBY_ORE);
 
         //bismuth
         //shaped
@@ -54,6 +63,140 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //smelting / blasting
         oreSmelting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f,200,"bismuth");
         oreBlasting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f,100,"bismuth");
+
+
+        //sapphire
+        //shaped
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SAPPHIRE.get())
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE))
+                .save(recipeOutput, "infernia:sapphire_block_from_sapphire");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_SAPPHIRE_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RAW_SAPPHIRE.get())
+                .unlockedBy("has_raw_sapphire", has(ModItems.RAW_SAPPHIRE))
+                .save(recipeOutput, "infernia:raw_sapphire_block_from_raw_sapphire");
+
+        //shapeless
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
+                .requires(ModBlocks.SAPPHIRE_BLOCK)
+                .unlockedBy("has_sapphire_block", has(ModBlocks.SAPPHIRE_BLOCK))
+                .save(recipeOutput, "infernia:sapphire_from_sapphire_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_SAPPHIRE.get(), 9)
+                .requires(ModBlocks.RAW_SAPPHIRE_BLOCK)
+                .unlockedBy("has_raw_sapphire_block", has(ModBlocks.RAW_SAPPHIRE_BLOCK))
+                .save(recipeOutput, "infernia:raw_sapphire_from_raw_sapphire_block");
+        //smelting / blasting
+        oreSmelting(recipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f,200,"sapphire");
+        oreBlasting(recipeOutput, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f,100,"sapphire");
+
+
+        //ruby
+        //shaped
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RUBY.get())
+                .unlockedBy("has_ruby", has(ModItems.RUBY))
+                .save(recipeOutput, "infernia:ruby_block_from_ruby");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_RUBY_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.RAW_RUBY.get())
+                .unlockedBy("has_raw_ruby", has(ModItems.RAW_RUBY))
+                .save(recipeOutput, "infernia:raw_ruby_block_from_raw_ruby");
+
+        //shapeless
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
+                .requires(ModBlocks.RUBY_BLOCK)
+                .unlockedBy("has_ruby_block", has(ModBlocks.RUBY_BLOCK))
+                .save(recipeOutput, "infernia:ruby_from_ruby_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RAW_RUBY.get(), 9)
+                .requires(ModBlocks.RAW_RUBY_BLOCK)
+                .unlockedBy("has_raw_ruby_block", has(ModBlocks.RAW_RUBY_BLOCK))
+                .save(recipeOutput, "infernia:raw_ruby_from_raw_ruby_block");
+        //smelting / blasting
+        oreSmelting(recipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f,200,"ruby");
+        oreBlasting(recipeOutput, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY.get(), 0.25f,100,"ruby");
+
+
+        //scorched / starlight
+        //shaped
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SCORCHED_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SCORCHED_INGOT.get())
+                .unlockedBy("has_scorched_ingot_2", has(ModItems.SCORCHED_INGOT))
+                .save(recipeOutput, "infernia:scorched_block_from_ingot");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SCORCHED_INGOT.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.SCORCHED_NUGGET.get())
+                .unlockedBy("has_scorched_nugget", has(ModItems.SCORCHED_NUGGET))
+                .save(recipeOutput, "infernia:scorched_ingot_from_nugget");
+
+        //shapeless
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SCORCHED_INGOT.get(), 9)
+                .requires(ModBlocks.SCORCHED_BLOCK)
+                .unlockedBy("has_scorched_block", has(ModBlocks.SCORCHED_BLOCK))
+                .save(recipeOutput, "infernia:scorched_ingot_out_of_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SCORCHED_NUGGET.get(), 9)
+                .requires(ModItems.SCORCHED_INGOT)
+                .unlockedBy("has_scorched_ingot", has(ModItems.SCORCHED_INGOT))
+                .save(recipeOutput, "infernia:scorched_nugget_from_ingot");
+
+        //idc
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STARLIGHT.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModBlocks.SCORCHED_BLOCK.get())
+                .unlockedBy("has_scorched_block", has(ModBlocks.SCORCHED_BLOCK))
+                .save(recipeOutput, "infernia:starlight_get");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STARLIGHT_ASHES.get(), 9)
+                .requires(ModBlocks.STARLIGHT)
+                .unlockedBy("has_starlight", has(ModBlocks.STARLIGHT))
+                .save(recipeOutput, "infernia:starlight_ashes_get");
+
+        //misc
+
+        //chisel
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHISEL.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', ModItems.BISMUTH.get())
+                .define('B', Items.STICK)
+                .unlockedBy("has_bismuth_2", has(ModItems.BISMUTH))
+                .save(recipeOutput, "infernia:chisel_get");
+
+        //mod cooker block
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MOD_COOKER_BLOCK.get())
+                .pattern("CAC")
+                .pattern("ABA")
+                .pattern("CAC")
+                .define('A', ModBlocks.RUBY_BLOCK.get())
+                .define('B', ModBlocks.STARLIGHT)
+                .define('C', ModItems.STARLIGHT_ASHES)
+                .unlockedBy("has_starlight_ashes_and_block", has(ModItems.STARLIGHT_ASHES))
+                .save(recipeOutput, "infernia:mod_cooker_block_get");
     }
 
 

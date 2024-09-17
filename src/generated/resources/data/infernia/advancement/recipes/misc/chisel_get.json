@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bismuth_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "infernia:bismuth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "infernia:chisel_get"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bismuth_2"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "infernia:chisel_get"
+    ]
+  }
+}

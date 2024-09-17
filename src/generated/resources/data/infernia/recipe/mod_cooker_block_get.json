@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "infernia:ruby_block"
+    },
+    "B": {
+      "item": "infernia:starlight"
+    },
+    "C": {
+      "item": "infernia:starlight_ashes"
+    }
+  },
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:mod_cooker_block"
+  }
+}

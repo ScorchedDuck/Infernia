@@ -1,0 +1,10 @@
+{
+  "values": {
+    "infernia:frostfire_ice": {
+      "burn_time": 600
+    },
+    "infernia:starlight_ashes": {
+      "burn_time": 1200
+    }
+  }
+}
