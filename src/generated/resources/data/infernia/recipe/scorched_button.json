@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "scorched",
+  "ingredients": [
+    {
+      "item": "infernia:scorched_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:scorched_button"
+  }
+}

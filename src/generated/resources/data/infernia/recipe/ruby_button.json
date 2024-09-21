@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "ruby",
+  "ingredients": [
+    {
+      "item": "infernia:ruby"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:ruby_button"
+  }
+}

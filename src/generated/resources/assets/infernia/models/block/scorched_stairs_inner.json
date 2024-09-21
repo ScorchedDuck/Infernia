@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "infernia:block/scorched_block",
+    "side": "infernia:block/scorched_block",
+    "top": "infernia:block/scorched_block"
+  }
+}

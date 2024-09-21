@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infernia:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "infernia:block/ruby_block"
+    },
+    "type=top": {
+      "model": "infernia:block/ruby_slab_top"
+    }
+  }
+}

@@ -43,7 +43,57 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get(),2,5));
         add(ModBlocks.SCORCHED_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.SCORCHED_ORE.get(), ModItems.SCORCHED_INGOT.get(),2,5));
+
+        dropSelf(ModBlocks.BISMUTH_STAIRS.get());
+        add(ModBlocks.BISMUTH_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BISMUTH_SLAB.get()));
+        dropSelf(ModBlocks.BISMUTH_FENCE.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        dropSelf(ModBlocks.BISMUTH_BUTTON.get());
+        dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BISMUTH_TRAPDOOR.get());
+        add(ModBlocks.BISMUTH_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
+
+        dropSelf(ModBlocks.RUBY_STAIRS.get());
+        add(ModBlocks.RUBY_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RUBY_SLAB.get()));
+        dropSelf(ModBlocks.RUBY_FENCE.get());
+        dropSelf(ModBlocks.RUBY_FENCE_GATE.get());
+        dropSelf(ModBlocks.RUBY_WALL.get());
+        dropSelf(ModBlocks.RUBY_BUTTON.get());
+        dropSelf(ModBlocks.RUBY_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.RUBY_TRAPDOOR.get());
+        add(ModBlocks.RUBY_DOOR.get(),
+                block -> createDoorTable(ModBlocks.RUBY_DOOR.get()));
+
+        dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        add(ModBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+        dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+        dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+        add(ModBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
+        dropSelf(ModBlocks.SCORCHED_STAIRS.get());
+        add(ModBlocks.SCORCHED_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SCORCHED_SLAB.get()));
+        dropSelf(ModBlocks.SCORCHED_FENCE.get());
+        dropSelf(ModBlocks.SCORCHED_FENCE_GATE.get());
+        dropSelf(ModBlocks.SCORCHED_WALL.get());
+        dropSelf(ModBlocks.SCORCHED_BUTTON.get());
+        dropSelf(ModBlocks.SCORCHED_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SCORCHED_TRAPDOOR.get());
+        add(ModBlocks.SCORCHED_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SCORCHED_DOOR.get()));
+
     }
+
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

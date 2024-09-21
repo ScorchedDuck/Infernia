@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "bismuth",
+  "ingredients": [
+    {
+      "item": "infernia:bismuth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:bismuth_button"
+  }
+}

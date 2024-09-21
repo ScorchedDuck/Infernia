@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "sapphire",
+  "ingredients": [
+    {
+      "item": "infernia:sapphire"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:sapphire_button"
+  }
+}

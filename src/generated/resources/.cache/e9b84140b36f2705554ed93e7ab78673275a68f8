@@ -1,5 +1,9 @@
-// 1.21.1	2024-09-17T16:35:22.6576958	Item Models: infernia
+// 1.21.1	2024-09-21T10:50:45.5813317	Item Models: infernia
 1dac49ef081bdaa8e4b710dfe7838f44d13b5807 assets/infernia/models/item/bismuth.json
+09922eff3f54c15328380c5cee90ee58d0cf2d65 assets/infernia/models/item/bismuth_button.json
+e746e40079096d2e29345a11407d7c04da50c586 assets/infernia/models/item/bismuth_door.json
+09e5afce8b07067972f4f3ceccd765f390747528 assets/infernia/models/item/bismuth_fence.json
+d70c2e3e83f6eb33d016502d5a4e150ace3cecbe assets/infernia/models/item/bismuth_wall.json
 77f982e0b53f3af27bc05a36ef78a6e7f1bd4278 assets/infernia/models/item/chisel.json
 ea744081418c2dde9430e6b63908717abd368abd assets/infernia/models/item/frostfire_ice.json
 f0d4735ae37a9f41789a8a9df5d851aeeaf8f157 assets/infernia/models/item/radish.json
@@ -7,7 +11,19 @@ af69f0e36b72a76facf5e096c77e9c82e4031ba5 assets/infernia/models/item/raw_bismuth
 67f2eaa3dc63d01aba733f733562601386360560 assets/infernia/models/item/raw_ruby.json
 e854e0f76b750a29a2f34bcfaaf213d917b31957 assets/infernia/models/item/raw_sapphire.json
 8178c4c210e8bf34e776efa09713ef00dc8fe6b5 assets/infernia/models/item/ruby.json
+9bac586b86add06b009582feecb3ecec651530f1 assets/infernia/models/item/ruby_button.json
+de970ee2b0471c724154667ca42dae38429198f7 assets/infernia/models/item/ruby_door.json
+e07b6157dafb35079a50d16c9139f8ac0e8ac4ec assets/infernia/models/item/ruby_fence.json
+06abf486114db5ee2e02682248a2a8aae778b54e assets/infernia/models/item/ruby_wall.json
 2b0e77cd86365c46f80a60901128eba80307f56b assets/infernia/models/item/sapphire.json
+c60ed039696837dafef4817190aff7d932e6c13f assets/infernia/models/item/sapphire_button.json
+046937bfbf0b2dcd137a8c3011f9bc361d4c0f74 assets/infernia/models/item/sapphire_door.json
+7cf0f50b4f9066362aa73390a0160b922771dfa5 assets/infernia/models/item/sapphire_fence.json
+4aad72fb1488e4b36515813b920211a42ac7293b assets/infernia/models/item/sapphire_wall.json
+f7d200168ea4c2a53b2c86dff3e93c34012b2325 assets/infernia/models/item/scorched_button.json
+82d12b8bd4b762d12f37e16fbf7ad4063702d070 assets/infernia/models/item/scorched_door.json
+51d2ff08d416a6d0a86cb51f20cb3bc6af93a67a assets/infernia/models/item/scorched_fence.json
 7aac6452ba61e9a8f629f974a8c791f1c7f9869f assets/infernia/models/item/scorched_ingot.json
 8d67820d30ea0e7177c820748459a2aedf53d033 assets/infernia/models/item/scorched_nugget.json
+3063868a1267e97927e75358202e2a03a5f7e7b1 assets/infernia/models/item/scorched_wall.json
 9940b4c3d6ae3b1125ab6255684749b75496b1be assets/infernia/models/item/starlight_ashes.json

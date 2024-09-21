@@ -31,7 +31,49 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SCORCHED_BLOCK.get())
                 .add(ModBlocks.SCORCHED_ORE.get())
                 .add(ModBlocks.STARLIGHT.get())
-                .add(ModBlocks.MOD_COOKER_BLOCK.get());
+                .add(ModBlocks.MOD_COOKER_BLOCK.get())
+
+                .add(ModBlocks.BISMUTH_STAIRS.get())
+                .add(ModBlocks.BISMUTH_SLAB.get())
+                .add(ModBlocks.BISMUTH_BUTTON.get())
+                .add(ModBlocks.BISMUTH_PRESSURE_PLATE.get())
+                .add(ModBlocks.BISMUTH_WALL.get())
+                .add(ModBlocks.BISMUTH_FENCE_GATE.get())
+                .add(ModBlocks.BISMUTH_FENCE.get())
+                .add(ModBlocks.BISMUTH_DOOR.get())
+                .add(ModBlocks.BISMUTH_TRAPDOOR.get())
+
+                .add(ModBlocks.RUBY_STAIRS.get())
+                .add(ModBlocks.RUBY_SLAB.get())
+                .add(ModBlocks.RUBY_BUTTON.get())
+                .add(ModBlocks.RUBY_PRESSURE_PLATE.get())
+                .add(ModBlocks.RUBY_WALL.get())
+                .add(ModBlocks.RUBY_FENCE_GATE.get())
+                .add(ModBlocks.RUBY_FENCE.get())
+                .add(ModBlocks.RUBY_DOOR.get())
+                .add(ModBlocks.RUBY_TRAPDOOR.get())
+
+                .add(ModBlocks.SAPPHIRE_STAIRS.get())
+                .add(ModBlocks.SAPPHIRE_SLAB.get())
+                .add(ModBlocks.SAPPHIRE_BUTTON.get())
+                .add(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get())
+                .add(ModBlocks.SAPPHIRE_WALL.get())
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE.get())
+                .add(ModBlocks.SAPPHIRE_FENCE.get())
+                .add(ModBlocks.SAPPHIRE_DOOR.get())
+                .add(ModBlocks.SAPPHIRE_TRAPDOOR.get())
+
+                .add(ModBlocks.SCORCHED_STAIRS.get())
+                .add(ModBlocks.SCORCHED_SLAB.get())
+                .add(ModBlocks.SCORCHED_BUTTON.get())
+                .add(ModBlocks.SCORCHED_PRESSURE_PLATE.get())
+                .add(ModBlocks.SCORCHED_WALL.get())
+                .add(ModBlocks.SCORCHED_FENCE_GATE.get())
+                .add(ModBlocks.SCORCHED_FENCE.get())
+                .add(ModBlocks.SCORCHED_DOOR.get())
+                .add(ModBlocks.SCORCHED_TRAPDOOR.get());
+
+
 
         tag(BlockTags.MINEABLE_WITH_AXE);
 
@@ -41,7 +83,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SCORCHED_BLOCK.get())
-                .add(ModBlocks.STARLIGHT.get());
+                .add(ModBlocks.STARLIGHT.get())
+
+                .add(ModBlocks.SCORCHED_STAIRS.get())
+                .add(ModBlocks.SCORCHED_SLAB.get())
+                .add(ModBlocks.SCORCHED_BUTTON.get())
+                .add(ModBlocks.SCORCHED_PRESSURE_PLATE.get())
+                .add(ModBlocks.SCORCHED_WALL.get())
+                .add(ModBlocks.SCORCHED_FENCE_GATE.get())
+                .add(ModBlocks.SCORCHED_FENCE.get())
+                .add(ModBlocks.SCORCHED_DOOR.get())
+                .add(ModBlocks.SCORCHED_TRAPDOOR.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BISMUTH_BLOCK.get())
@@ -51,11 +103,57 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RAW_RUBY_BLOCK.get())
                 .add(ModBlocks.RAW_SAPPHIRE_BLOCK.get())
                 .add(ModBlocks.SCORCHED_ORE.get())
-                .add(ModBlocks.MOD_COOKER_BLOCK.get());
+                .add(ModBlocks.MOD_COOKER_BLOCK.get())
+
+                .add(ModBlocks.BISMUTH_STAIRS.get())
+                .add(ModBlocks.BISMUTH_SLAB.get())
+                .add(ModBlocks.BISMUTH_BUTTON.get())
+                .add(ModBlocks.BISMUTH_PRESSURE_PLATE.get())
+                .add(ModBlocks.BISMUTH_WALL.get())
+                .add(ModBlocks.BISMUTH_FENCE_GATE.get())
+                .add(ModBlocks.BISMUTH_FENCE.get())
+                .add(ModBlocks.BISMUTH_DOOR.get())
+                .add(ModBlocks.BISMUTH_TRAPDOOR.get())
+
+                .add(ModBlocks.RUBY_STAIRS.get())
+                .add(ModBlocks.RUBY_SLAB.get())
+                .add(ModBlocks.RUBY_BUTTON.get())
+                .add(ModBlocks.RUBY_PRESSURE_PLATE.get())
+                .add(ModBlocks.RUBY_WALL.get())
+                .add(ModBlocks.RUBY_FENCE_GATE.get())
+                .add(ModBlocks.RUBY_FENCE.get())
+                .add(ModBlocks.RUBY_DOOR.get())
+                .add(ModBlocks.RUBY_TRAPDOOR.get())
+
+                .add(ModBlocks.SAPPHIRE_STAIRS.get())
+                .add(ModBlocks.SAPPHIRE_SLAB.get())
+                .add(ModBlocks.SAPPHIRE_BUTTON.get())
+                .add(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get())
+                .add(ModBlocks.SAPPHIRE_WALL.get())
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE.get())
+                .add(ModBlocks.SAPPHIRE_FENCE.get())
+                .add(ModBlocks.SAPPHIRE_DOOR.get())
+                .add(ModBlocks.SAPPHIRE_TRAPDOOR.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.BISMUTH_ORE.get())
                 .add(ModBlocks.RUBY_ORE.get())
                 .add(ModBlocks.SAPPHIRE_ORE.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.BISMUTH_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.BISMUTH_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.BISMUTH_WALL.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.RUBY_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.RUBY_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.RUBY_WALL.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.SAPPHIRE_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.SAPPHIRE_WALL.get());
+
+        tag(BlockTags.FENCES).add(ModBlocks.SCORCHED_FENCE.get());
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.SCORCHED_FENCE_GATE.get());
+        tag(BlockTags.WALLS).add(ModBlocks.SCORCHED_WALL.get());
     }
 }

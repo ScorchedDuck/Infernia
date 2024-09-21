@@ -53,6 +53,48 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_BISMUTH_BLOCK);
                         output.accept(ModBlocks.MOD_COOKER_BLOCK);
                         output.accept(ModBlocks.STARLIGHT);
+
+                        output.accept(ModBlocks.BISMUTH_STAIRS);
+                        output.accept(ModBlocks.BISMUTH_SLAB);
+                        output.accept(ModBlocks.BISMUTH_BUTTON);
+                        output.accept(ModBlocks.BISMUTH_PRESSURE_PLATE);
+                        output.accept(ModBlocks.BISMUTH_DOOR);
+                        output.accept(ModBlocks.BISMUTH_TRAPDOOR);
+                        output.accept(ModBlocks.BISMUTH_WALL);
+                        output.accept(ModBlocks.BISMUTH_FENCE);
+                        output.accept(ModBlocks.BISMUTH_FENCE_GATE);
+
+                        output.accept(ModBlocks.RUBY_STAIRS);
+                        output.accept(ModBlocks.RUBY_SLAB);
+                        output.accept(ModBlocks.RUBY_BUTTON);
+                        output.accept(ModBlocks.RUBY_PRESSURE_PLATE);
+                        output.accept(ModBlocks.RUBY_DOOR);
+                        output.accept(ModBlocks.RUBY_TRAPDOOR);
+                        output.accept(ModBlocks.RUBY_WALL);
+                        output.accept(ModBlocks.RUBY_FENCE);
+                        output.accept(ModBlocks.RUBY_FENCE_GATE);
+
+                        output.accept(ModBlocks.SAPPHIRE_STAIRS);
+                        output.accept(ModBlocks.SAPPHIRE_SLAB);
+                        output.accept(ModBlocks.SAPPHIRE_BUTTON);
+                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.SAPPHIRE_DOOR);
+                        output.accept(ModBlocks.SAPPHIRE_TRAPDOOR);
+                        output.accept(ModBlocks.SAPPHIRE_WALL);
+                        output.accept(ModBlocks.SAPPHIRE_FENCE);
+                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE);
+
+                        output.accept(ModBlocks.SCORCHED_STAIRS);
+                        output.accept(ModBlocks.SCORCHED_SLAB);
+                        output.accept(ModBlocks.SCORCHED_BUTTON);
+                        output.accept(ModBlocks.SCORCHED_PRESSURE_PLATE);
+                        output.accept(ModBlocks.SCORCHED_DOOR);
+                        output.accept(ModBlocks.SCORCHED_TRAPDOOR);
+                        output.accept(ModBlocks.SCORCHED_WALL);
+                        output.accept(ModBlocks.SCORCHED_FENCE);
+                        output.accept(ModBlocks.SCORCHED_FENCE_GATE);
+
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_ENTITIES_TAB = CREATIVE_MODE_TAB.register("infernia_entities_tab",

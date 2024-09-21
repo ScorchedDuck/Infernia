@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infernia:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "infernia:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "infernia:block/sapphire_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "infernia:block/scorched_slab"
+    },
+    "type=double": {
+      "model": "infernia:block/scorched_block"
+    },
+    "type=top": {
+      "model": "infernia:block/scorched_slab_top"
+    }
+  }
+}

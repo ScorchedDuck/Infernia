@@ -197,6 +197,95 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', ModItems.STARLIGHT_ASHES)
                 .unlockedBy("has_starlight_ashes_and_block", has(ModItems.STARLIGHT_ASHES))
                 .save(recipeOutput, "infernia:mod_cooker_block_get");
+
+
+
+
+        stairBuilder(ModBlocks.BISMUTH_STAIRS.get(), Ingredient.of(ModItems.BISMUTH)).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_SLAB.get(), ModItems.BISMUTH.get());
+
+        buttonBuilder(ModBlocks.BISMUTH_BUTTON.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.BISMUTH_PRESSURE_PLATE.get(), ModItems.BISMUTH.get());
+
+        fenceBuilder(ModBlocks.BISMUTH_FENCE.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.BISMUTH_FENCE_GATE.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_WALL.get(), ModItems.BISMUTH.get());
+
+        doorBuilder(ModBlocks.BISMUTH_DOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.BISMUTH_TRAPDOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+
+
+
+        stairBuilder(ModBlocks.RUBY_STAIRS.get(), Ingredient.of(ModItems.RUBY)).group("ruby")
+                .unlockedBy("has_ruby", has(ModItems.RUBY)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB.get(), ModItems.RUBY.get());
+
+        buttonBuilder(ModBlocks.RUBY_BUTTON.get(), Ingredient.of(ModItems.RUBY.get())).group("ruby")
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.RUBY_PRESSURE_PLATE.get(), ModItems.RUBY.get());
+
+        fenceBuilder(ModBlocks.RUBY_FENCE.get(), Ingredient.of(ModItems.RUBY.get())).group("ruby")
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.RUBY_FENCE_GATE.get(), Ingredient.of(ModItems.RUBY.get())).group("ruby")
+                .unlockedBy("has_ruby", has(ModItems.RUBY.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL.get(), ModItems.RUBY.get());
+
+        doorBuilder(ModBlocks.RUBY_DOOR.get(), Ingredient.of(ModItems.RUBY.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.RUBY.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.RUBY_TRAPDOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.RUBY.get())).save(recipeOutput);
+
+
+
+        stairBuilder(ModBlocks.SAPPHIRE_STAIRS.get(), Ingredient.of(ModItems.SAPPHIRE)).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_SLAB.get(), ModItems.SAPPHIRE.get());
+
+        buttonBuilder(ModBlocks.SAPPHIRE_BUTTON.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(), ModItems.SAPPHIRE.get());
+
+        fenceBuilder(ModBlocks.SAPPHIRE_FENCE.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.SAPPHIRE_FENCE_GATE.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_WALL.get(), ModItems.SAPPHIRE.get());
+
+        doorBuilder(ModBlocks.SAPPHIRE_DOOR.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.SAPPHIRE_TRAPDOOR.get(), Ingredient.of(ModItems.SAPPHIRE.get())).group("sapphire")
+                .unlockedBy("has_sapphire", has(ModItems.SAPPHIRE.get())).save(recipeOutput);
+
+
+
+        stairBuilder(ModBlocks.SCORCHED_STAIRS.get(), Ingredient.of(ModItems.SCORCHED_INGOT)).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SCORCHED_SLAB.get(), ModItems.SCORCHED_INGOT.get());
+
+        buttonBuilder(ModBlocks.SCORCHED_BUTTON.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.SCORCHED_PRESSURE_PLATE.get(), ModItems.SCORCHED_INGOT.get());
+
+        fenceBuilder(ModBlocks.SCORCHED_FENCE.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.SCORCHED_FENCE_GATE.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SCORCHED_WALL.get(), ModItems.SCORCHED_INGOT.get());
+
+        doorBuilder(ModBlocks.SCORCHED_DOOR.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.SCORCHED_TRAPDOOR.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
+                .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
     }
 
 

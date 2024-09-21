@@ -1,6 +1,15 @@
 {
   "values": [
     "infernia:scorched_block",
-    "infernia:starlight"
+    "infernia:starlight",
+    "infernia:scorched_stairs",
+    "infernia:scorched_slab",
+    "infernia:scorched_button",
+    "infernia:scorched_pressure_plate",
+    "infernia:scorched_wall",
+    "infernia:scorched_fence_gate",
+    "infernia:scorched_fence",
+    "infernia:scorched_door",
+    "infernia:scorched_trapdoor"
   ]
 }

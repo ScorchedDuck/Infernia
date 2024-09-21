@@ -1,8 +1,11 @@
-// 1.21.1	2024-09-16T19:51:47.1964306	Tags for minecraft:block mod id infernia
+// 1.21.1	2024-09-21T10:54:42.511852	Tags for minecraft:block mod id infernia
+844fbcbc7ad8238e8669dd8b587343af8f1d14ff data/minecraft/tags/block/fences.json
+0bf6bc62c609e7f6b3ae57c4161cfa666c0f0d80 data/minecraft/tags/block/fence_gates.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/mineable/axe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/mineable/hoe.json
-607d3214773c078f705c05dfa5e1966a233cfb0f data/minecraft/tags/block/mineable/pickaxe.json
+657b834de19fb9c8759732c1db0fb10b0ef1d911 data/minecraft/tags/block/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/mineable/shovel.json
-cea866b9c161b37278b1f4b0a2331ded46662327 data/minecraft/tags/block/needs_diamond_tool.json
-bdeddcd732b1b28ecd02ae83babd4af7579d711e data/minecraft/tags/block/needs_iron_tool.json
+94cefc626d01e3ae772774b70567de4960e8d0c5 data/minecraft/tags/block/needs_diamond_tool.json
+8e5b3e5bb8015ebcdc26638bef4fb04b3d0594eb data/minecraft/tags/block/needs_iron_tool.json
 e0f608c2801ca4534c27b5a8e02882708af7791e data/minecraft/tags/block/needs_stone_tool.json
+c8da2843769bfee1fa6eb8c4c47698481ae1066c data/minecraft/tags/block/walls.json
