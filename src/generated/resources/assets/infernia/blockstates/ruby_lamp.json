@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "infernia:block/ruby_lamp_off"
+    },
+    "clicked=true": {
+      "model": "infernia:block/ruby_lamp_on"
+    }
+  }
+}

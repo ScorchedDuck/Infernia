@@ -26,6 +26,10 @@
   "block.infernia.mod_cooker_block": "Mod Cooker Block",
   "block.infernia.starlight": "Starlight",
 
+  "block.infernia.bismuth_lamp": "Bismuth Lamp",
+  "block.infernia.ruby_lamp": "Ruby Lamp",
+  "block.infernia.sapphire_lamp": "Sapphire Lamp",
+
   "block.infernia.bismuth_stairs": "Bismuth Stair",
   "block.infernia.bismuth_slab": "Bismuth Slab",
   "block.infernia.bismuth_button": "Bismuth Button",

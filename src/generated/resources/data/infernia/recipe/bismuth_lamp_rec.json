@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "infernia:bismuth_block"
+    },
+    {
+      "item": "minecraft:redstone_lamp"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "infernia:bismuth_lamp"
+  }
+}

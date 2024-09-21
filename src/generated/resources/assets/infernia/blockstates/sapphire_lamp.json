@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "infernia:block/sapphire_lamp_off"
+    },
+    "clicked=true": {
+      "model": "infernia:block/sapphire_lamp_on"
+    }
+  }
+}

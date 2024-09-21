@@ -35,6 +35,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
         dropSelf(ModBlocks.SCORCHED_BLOCK.get());
         dropSelf(ModBlocks.STARLIGHT.get());
+        dropSelf(ModBlocks.BISMUTH_LAMP.get());
+        dropSelf(ModBlocks.RUBY_LAMP.get());
+        dropSelf(ModBlocks.SAPPHIRE_LAMP.get());
+
         add(ModBlocks.BISMUTH_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get(),2,5));
         add(ModBlocks.RUBY_ORE.get(),

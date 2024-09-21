@@ -1,9 +1,10 @@
-// 1.21.1	2024-09-21T10:46:50.7635949	Loot Tables
+// 1.21.1	2024-09-21T19:48:42.9773093	Loot Tables
 4682425d45097221d59255db706f0d8aae9b1f9d data/infernia/loot_table/blocks/bismuth_block.json
 01032730619f460f5ffc56374e78180563da306d data/infernia/loot_table/blocks/bismuth_button.json
 e2c5e24b7bf1a342ad8de134947454fc2f30f72a data/infernia/loot_table/blocks/bismuth_door.json
 af28f69970580814e89dcc9548770bf2490fb35e data/infernia/loot_table/blocks/bismuth_fence.json
 3d7d5da7d9f0377ef69f89c507aa73f0f796e836 data/infernia/loot_table/blocks/bismuth_fence_gate.json
+bbe1bdad04e54caf5cd2fa9f0f344be941aa41d2 data/infernia/loot_table/blocks/bismuth_lamp.json
 ad988448dc38d7005f0fb33926cd79174d0493dd data/infernia/loot_table/blocks/bismuth_ore.json
 89a88299372a432a6dd606d4c295945b0f182990 data/infernia/loot_table/blocks/bismuth_pressure_plate.json
 d9bf8e6ae811cbd38980badbe91777a8fd254878 data/infernia/loot_table/blocks/bismuth_slab.json
@@ -19,6 +20,7 @@ af4c09d03f53514b3c3134127fb7d47c560d27fb data/infernia/loot_table/blocks/raw_rub
 d75847122d7f42ec401972c5ce9e3f9d4547e640 data/infernia/loot_table/blocks/ruby_door.json
 4ca783442c39c476f0f0718d64cbc5f8ec582bdc data/infernia/loot_table/blocks/ruby_fence.json
 521cc33241340d2fb7780ad821c0bbdb8743aa6b data/infernia/loot_table/blocks/ruby_fence_gate.json
+9c35e7b89f6464ecd2d93a4008f284737a5e210a data/infernia/loot_table/blocks/ruby_lamp.json
 5dd40265cd1ccdf120129081c6774a6cc2f4eb69 data/infernia/loot_table/blocks/ruby_ore.json
 e4785cae4313d4537f87f7dcac48bb6e844c29f8 data/infernia/loot_table/blocks/ruby_pressure_plate.json
 4ee61d3927548dc63f6e10bcd945595735d8a555 data/infernia/loot_table/blocks/ruby_slab.json
@@ -30,6 +32,7 @@ a918ccb2bddd585da1c6170e019a59ccd350d706 data/infernia/loot_table/blocks/ruby_tr
 903c9356e5d7150e340098580975445105916479 data/infernia/loot_table/blocks/sapphire_door.json
 b9f86e2ae797964fb7118afe3eacaa3c88c9c337 data/infernia/loot_table/blocks/sapphire_fence.json
 b2f292617f596bbb14c08b45b56213e149d21cbf data/infernia/loot_table/blocks/sapphire_fence_gate.json
+66e31545c826e2e4276c3f8a33f0415f2f7b211e data/infernia/loot_table/blocks/sapphire_lamp.json
 e568613fbdc6e929c29c8eefbb32021ff7ade0b5 data/infernia/loot_table/blocks/sapphire_ore.json
 a39e398445b151277abccb5a38934695d243be6c data/infernia/loot_table/blocks/sapphire_pressure_plate.json
 14ecc6b8e809225350739c3dc2143a8edc16632f data/infernia/loot_table/blocks/sapphire_slab.json

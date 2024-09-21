@@ -1,13 +1,18 @@
 package net.scorchedduck.infernia.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.block.ModBlocks;
+import net.scorchedduck.infernia.block.custom.BismuthLampBlock;
+import net.scorchedduck.infernia.block.custom.RubyLampBlock;
+import net.scorchedduck.infernia.block.custom.SapphireLampBlock;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -94,6 +99,57 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.SCORCHED_FENCE_GATE);
         blockItem(ModBlocks.SCORCHED_TRAPDOOR, "_bottom");
 
+        customLampOne();
+        customLampTwo();
+        customLampThree();
+
+    }
+
+    private void customLampOne() {
+        getVariantBuilder(ModBlocks.BISMUTH_LAMP.get()).forAllStates(state -> {
+            if (state.getValue(BismuthLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "bismuth_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "bismuth_lamp_off")))};
+            }
+        });
+
+        simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "bismuth_lamp_on")));
+
+        //huh
+    }
+
+    private void customLampTwo() {
+        getVariantBuilder(ModBlocks.RUBY_LAMP.get()).forAllStates(state -> {
+            if (state.getValue(RubyLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("ruby_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "ruby_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("ruby_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "ruby_lamp_off")))};
+            }
+        });
+
+        simpleBlockItem(ModBlocks.RUBY_LAMP.get(), models().cubeAll("ruby_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "ruby_lamp_on")));
+    }
+
+    private void customLampThree() {
+        getVariantBuilder(ModBlocks.SAPPHIRE_LAMP.get()).forAllStates(state -> {
+            if (state.getValue(SapphireLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("sapphire_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "sapphire_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("sapphire_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "sapphire_lamp_off")))};
+            }
+        });
+
+        simpleBlockItem(ModBlocks.SAPPHIRE_LAMP.get(), models().cubeAll("sapphire_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "block/" + "sapphire_lamp_on")));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -7,6 +7,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.block.ModBlocks;
@@ -159,6 +161,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.SCORCHED_INGOT)
                 .unlockedBy("has_scorched_ingot", has(ModItems.SCORCHED_INGOT))
                 .save(recipeOutput, "infernia:scorched_nugget_from_ingot");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.SAPPHIRE_LAMP.get())
+                .requires(ModBlocks.SAPPHIRE_BLOCK)
+                .requires(Blocks.REDSTONE_LAMP)
+                .unlockedBy("has_redstone_lamp", has(Blocks.REDSTONE_LAMP))
+                .save(recipeOutput, "infernia:sapphire_lamp_rec");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.RUBY_LAMP.get())
+                .requires(ModBlocks.RUBY_BLOCK)
+                .requires(Blocks.REDSTONE_LAMP)
+                .unlockedBy("has_redstone_lamp", has(Blocks.REDSTONE_LAMP))
+                .save(recipeOutput, "infernia:ruby_lamp_rec");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.BISMUTH_LAMP.get())
+                .requires(ModBlocks.BISMUTH_BLOCK)
+                .requires(Blocks.REDSTONE_LAMP)
+                .unlockedBy("has_redstone_lamp", has(Blocks.REDSTONE_LAMP))
+                .save(recipeOutput, "infernia:bismuth_lamp_rec");
 
         //idc
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STARLIGHT.get())

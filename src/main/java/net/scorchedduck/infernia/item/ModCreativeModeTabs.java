@@ -53,6 +53,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_BISMUTH_BLOCK);
                         output.accept(ModBlocks.MOD_COOKER_BLOCK);
                         output.accept(ModBlocks.STARLIGHT);
+                        output.accept(ModBlocks.BISMUTH_LAMP);
+                        output.accept(ModBlocks.RUBY_LAMP);
+                        output.accept(ModBlocks.SAPPHIRE_LAMP);
 
                         output.accept(ModBlocks.BISMUTH_STAIRS);
                         output.accept(ModBlocks.BISMUTH_SLAB);
