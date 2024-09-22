@@ -15,6 +15,7 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.scorchedduck.infernia.component.ModDataComponents;
 
 import java.util.List;
 import java.util.Map;
@@ -48,6 +49,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                context.getItemInHand().set(ModDataComponents.COORIDNATES, context.getClickedPos());
             }
         }
 
@@ -62,6 +65,12 @@ public class ChiselItem extends Item {
         } else {
             tooltipComponents.add(Component.translatable("tooltip.infernia.chisel.shift_up"));
         }
+
+        if(stack.get(ModDataComponents.COORIDNATES) !=null) {
+            tooltipComponents.add(Component.literal("Last Block changed at " + stack.get(ModDataComponents.COORIDNATES)));
+        }
+
+
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
 }

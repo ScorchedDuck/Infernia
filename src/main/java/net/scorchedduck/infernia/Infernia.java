@@ -2,6 +2,7 @@ package net.scorchedduck.infernia;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.scorchedduck.infernia.block.ModBlocks;
+import net.scorchedduck.infernia.component.ModDataComponents;
 import net.scorchedduck.infernia.item.ModCreativeModeTabs;
 import net.scorchedduck.infernia.item.ModItems;
 import org.slf4j.Logger;
@@ -42,6 +43,7 @@ public class Infernia {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModDataComponents.register(modEventBus);
 
 
         // Register the item to a creative tab
