@@ -70,6 +70,30 @@
   "block.infernia.scorched_fence_gate": "Scorched Fence Gate",
   "block.infernia.scorched_wall": "Scorched Wall",
 
+  "item.infernia.bismuth_sword": "Bismuth Sword",
+  "item.infernia.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.infernia.bismuth_shovel": "Bismuth Shovel",
+  "item.infernia.bismuth_axe": "Bismuth Axe",
+  "item.infernia.bismuth_hoe": "Bismuth Hoe",
+
+  "item.infernia.ruby_sword": "Ruby Sword",
+  "item.infernia.ruby_pickaxe": "Ruby Pickaxe",
+  "item.infernia.ruby_shovel": "Ruby Shovel",
+  "item.infernia.ruby_axe": "Ruby Axe",
+  "item.infernia.ruby_hoe": "Ruby Hoe",
+
+  "item.infernia.sapphire_sword": "Sapphire Sword",
+  "item.infernia.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.infernia.sapphire_shovel": "Sapphire Shovel",
+  "item.infernia.sapphire_axe": "Sapphire Axe",
+  "item.infernia.sapphire_hoe": "Sapphire Hoe",
+
+  "item.infernia.scorched_sword": "Scorched Sword",
+  "item.infernia.scorched_pickaxe": "Scorched Pickaxe",
+  "item.infernia.scorched_shovel": "Scorched Shovel",
+  "item.infernia.scorched_axe": "Scorched Axe",
+  "item.infernia.scorched_hoe": "Scorched Hoe",
+
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",
   "creativetab.infernia.infernia_entities": "Infernia Entities",

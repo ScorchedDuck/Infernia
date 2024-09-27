@@ -7,6 +7,7 @@ import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.block.ModBlocks;
+import net.scorchedduck.infernia.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -155,5 +156,29 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.SCORCHED_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.SCORCHED_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.SCORCHED_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_BISMUTH_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_BISMUTH_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .addTag(BlockTags.NEEDS_STONE_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_RUBY_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_SCORCHED_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        tag(ModTags.Blocks.INCORRECT_FOR_SCORCHED_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .remove(ModTags.Blocks.NEEDS_SCORCHED_TOOL);
     }
 }

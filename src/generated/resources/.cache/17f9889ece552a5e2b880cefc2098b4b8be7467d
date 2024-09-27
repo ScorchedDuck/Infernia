@@ -1,2 +1,7 @@
-// 1.21.1	2024-09-16T19:51:47.1934319	Tags for minecraft:item mod id infernia
+// 1.21.1	2024-09-27T17:11:12.4216635	Tags for minecraft:item mod id infernia
 05abdd0d8560b0671f8c122f795fcb1bc2155276 data/infernia/tags/item/transformable_items.json
+9946145c7566918c63c318d4884ab93b1eb50ea5 data/minecraft/tags/item/axes.json
+be9adf16dbf4bd4f8e5a117643cfe5b9b23b804b data/minecraft/tags/item/hoes.json
+70e43a053d2adfba488d752c39d1dde333e4f582 data/minecraft/tags/item/pickaxes.json
+4983f6d2b0949a7ee2cffe7706359f4da452e6a6 data/minecraft/tags/item/shovels.json
+f58a30be284ed02d0368e6decf7719b05208959f data/minecraft/tags/item/swords.json

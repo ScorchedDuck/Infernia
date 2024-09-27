@@ -33,6 +33,31 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RADISH);
                         output.accept(ModItems.STARLIGHT_ASHES);
                         output.accept(ModItems.FROSTFIRE_ICE);
+                        
+                        output.accept(ModItems.BISMUTH_SWORD);
+                        output.accept(ModItems.BISMUTH_AXE);
+                        output.accept(ModItems.BISMUTH_HOE);
+                        output.accept(ModItems.BISMUTH_SHOVEL);
+                        output.accept(ModItems.BISMUTH_PICKAXE);
+
+                        output.accept(ModItems.RUBY_SWORD);
+                        output.accept(ModItems.RUBY_AXE);
+                        output.accept(ModItems.RUBY_HOE);
+                        output.accept(ModItems.RUBY_SHOVEL);
+                        output.accept(ModItems.RUBY_PICKAXE);
+
+                        output.accept(ModItems.SAPPHIRE_SWORD);
+                        output.accept(ModItems.SAPPHIRE_AXE);
+                        output.accept(ModItems.SAPPHIRE_HOE);
+                        output.accept(ModItems.SAPPHIRE_SHOVEL);
+                        output.accept(ModItems.SAPPHIRE_PICKAXE);
+
+                        output.accept(ModItems.SCORCHED_SWORD);
+                        output.accept(ModItems.SCORCHED_AXE);
+                        output.accept(ModItems.SCORCHED_HOE);
+                        output.accept(ModItems.SCORCHED_SHOVEL);
+                        output.accept(ModItems.SCORCHED_PICKAXE);
+                        
                     }).build());
 
     public static final Supplier<CreativeModeTab> INFERNIA_BLOCKS_TAB = CREATIVE_MODE_TAB.register("infernia_blocks_tab",

@@ -1,5 +1,7 @@
 package net.scorchedduck.infernia.datagen;
 
+import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.block.ModBlocks;
 import net.scorchedduck.infernia.item.ModItems;
@@ -47,6 +49,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModBlocks.RUBY_DOOR.asItem());
         basicItem(ModBlocks.SAPPHIRE_DOOR.asItem());
         basicItem(ModBlocks.SCORCHED_DOOR.asItem());
+        
+        handheldItem(ModItems.BISMUTH_SWORD);
+        handheldItem(ModItems.BISMUTH_PICKAXE);
+        handheldItem(ModItems.BISMUTH_AXE);
+        handheldItem(ModItems.BISMUTH_SHOVEL);
+        handheldItem(ModItems.BISMUTH_HOE);
+
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_HOE);
+
+        handheldItem(ModItems.SAPPHIRE_SWORD);
+        handheldItem(ModItems.SAPPHIRE_PICKAXE);
+        handheldItem(ModItems.SAPPHIRE_AXE);
+        handheldItem(ModItems.SAPPHIRE_SHOVEL);
+        handheldItem(ModItems.SAPPHIRE_HOE);
+
+        handheldItem(ModItems.SCORCHED_SWORD);
+        handheldItem(ModItems.SCORCHED_PICKAXE);
+        handheldItem(ModItems.SCORCHED_AXE);
+        handheldItem(ModItems.SCORCHED_SHOVEL);
+        handheldItem(ModItems.SCORCHED_HOE);
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
@@ -67,4 +93,11 @@ public class ModItemModelProvider extends ItemModelProvider {
                         "block/" + baseBlock.getId().getPath()));
 
     }
+
+    private ItemModelBuilder handheldItem(DeferredItem<?> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID,"item/" + item.getId().getPath()));
+    }
+    
 }
