@@ -1,5 +1,6 @@
 package net.scorchedduck.infernia.datagen;
 
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.scorchedduck.infernia.Infernia;
@@ -55,6 +56,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BISMUTH_AXE);
         handheldItem(ModItems.BISMUTH_SHOVEL);
         handheldItem(ModItems.BISMUTH_HOE);
+        handheldItem(ModItems.BISMUTH_HAMMER);
 
         handheldItem(ModItems.RUBY_SWORD);
         handheldItem(ModItems.RUBY_PICKAXE);

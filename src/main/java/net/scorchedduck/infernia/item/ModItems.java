@@ -7,6 +7,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.item.custom.ChiselItem;
 import net.scorchedduck.infernia.item.custom.FuelItem;
+import net.scorchedduck.infernia.item.custom.HammerItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Infernia.MOD_ID);
@@ -67,6 +68,10 @@ public class ModItems {
     public static final DeferredItem<AxeItem> BISMUTH_AXE = ITEMS.register("bismuth_axe",
             () -> new AxeItem(ModToolTiers.BISMUTH, new Item.Properties()
                     .attributes(AxeItem.createAttributes(ModToolTiers.BISMUTH, 11,-3.2f))));
+
+    public static final DeferredItem<HammerItem> BISMUTH_HAMMER = ITEMS.register("bismuth_hammer",
+            () -> new HammerItem(ModToolTiers.BISMUTH, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.BISMUTH, 15F,-2f))));
 
 
     public static final DeferredItem<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword",

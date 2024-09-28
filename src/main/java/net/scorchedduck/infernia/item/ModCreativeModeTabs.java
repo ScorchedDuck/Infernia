@@ -57,6 +57,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SCORCHED_HOE);
                         output.accept(ModItems.SCORCHED_SHOVEL);
                         output.accept(ModItems.SCORCHED_PICKAXE);
+
+                        output.accept(ModItems.BISMUTH_HAMMER);
                         
                     }).build());
 

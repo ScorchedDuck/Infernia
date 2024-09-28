@@ -1,9 +1,10 @@
-// 1.21.1	2024-09-27T17:11:12.4246647	Item Models: infernia
+// 1.21.1	2024-09-28T08:58:46.3622736	Item Models: infernia
 1dac49ef081bdaa8e4b710dfe7838f44d13b5807 assets/infernia/models/item/bismuth.json
 356d2501a60c86e1bdff8fea4c179cc1e979bd49 assets/infernia/models/item/bismuth_axe.json
 09922eff3f54c15328380c5cee90ee58d0cf2d65 assets/infernia/models/item/bismuth_button.json
 e746e40079096d2e29345a11407d7c04da50c586 assets/infernia/models/item/bismuth_door.json
 09e5afce8b07067972f4f3ceccd765f390747528 assets/infernia/models/item/bismuth_fence.json
+0efae712862f574673600cbc2df14ebbc40e3094 assets/infernia/models/item/bismuth_hammer.json
 05afa1e93c05af1fa4fbd4cedb05757c01f9520c assets/infernia/models/item/bismuth_hoe.json
 ac97cf080addc6960c420245438166a94a2c1f2e assets/infernia/models/item/bismuth_pickaxe.json
 1399e3633644e849b1c45b935bf7a8ce5832ecd2 assets/infernia/models/item/bismuth_shovel.json
