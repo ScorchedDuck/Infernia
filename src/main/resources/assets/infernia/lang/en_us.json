@@ -95,6 +95,11 @@
   "item.infernia.scorched_axe": "Scorched Axe",
   "item.infernia.scorched_hoe": "Scorched Hoe",
 
+  "item.infernia.bismuth_helmet": "Bismuth Helmet",
+  "item.infernia.bismuth_chestplate": "Bismuth Chestplate",
+  "item.infernia.bismuth_leggings": "Bismuth Leggings",
+  "item.infernia.bismuth_boots": "Bismuth Boots",
+
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",
   "creativetab.infernia.infernia_entities": "Infernia Entities",

@@ -69,6 +69,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.SCORCHED_HOE.get());
         tag(ItemTags.AXES)
                 .add(ModItems.SCORCHED_AXE.get());
+
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.BISMUTH_HELMET.get())
+                .add(ModItems.BISMUTH_CHESTPLATE.get())
+                .add(ModItems.BISMUTH_LEGGINGS.get())
+                .add(ModItems.BISMUTH_BOOTS.get());
         
 
     }
