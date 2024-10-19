@@ -1,5 +1,6 @@
 package net.scorchedduck.infernia.item;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -8,6 +9,7 @@ import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.item.custom.ChiselItem;
 import net.scorchedduck.infernia.item.custom.FuelItem;
 import net.scorchedduck.infernia.item.custom.HammerItem;
+import net.scorchedduck.infernia.item.custom.ModArmorItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Infernia.MOD_ID);
@@ -137,7 +139,7 @@ public class ModItems {
                     .attributes(AxeItem.createAttributes(ModToolTiers.SCORCHED, 11,-3.2f))));
 
     public static final DeferredItem<ArmorItem> BISMUTH_HELMET = ITEMS.register("bismuth_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
     public static final DeferredItem<ArmorItem> BISMUTH_CHESTPLATE = ITEMS.register("bismuth_chestplate",
             () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
@@ -148,6 +150,14 @@ public class ModItems {
     public static final DeferredItem<ArmorItem> BISMUTH_BOOTS = ITEMS.register("bismuth_boots",
             () -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(19))));
+
+    public static final DeferredItem<Item> BISMUTH_HORSE_ARMOR = ITEMS.register("bismuth_horse_armor",
+            () -> new AnimalArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, AnimalArmorItem.BodyType.EQUESTRIAN,
+                    false, new Item.Properties().stacksTo(1)));
+
+    public static final DeferredItem<Item> SCORCHEDDUCK_SMITHING_TEMPLATE = ITEMS.register("scorchedduck_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "scorchedduck")));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

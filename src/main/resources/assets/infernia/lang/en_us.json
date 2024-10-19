@@ -99,6 +99,9 @@
   "item.infernia.bismuth_chestplate": "Bismuth Chestplate",
   "item.infernia.bismuth_leggings": "Bismuth Leggings",
   "item.infernia.bismuth_boots": "Bismuth Boots",
+  "item.infernia.bismuth_horse_armor": "Bismuth Horse Armor",
+
+  "item.infernia.scorchedduck_armor_trim_smithing_template": "ScorchedDuck Trim Template",
 
   "creativetab.infernia.infernia_items": "Infernia Items",
   "creativetab.infernia.infernia_blocks": "Infernia Blocks",
@@ -106,5 +109,8 @@
 
   "tooltip.infernia.mod_cooker_block.tooltip": "Can cook certain things",
   "tooltip.inerfnia.chisel.shift_down": "Can turn certain blocks to their brick variant",
-  "tooltip.infernia.chisel.shift_up": "Press shift for more info"
+  "tooltip.infernia.chisel.shift_up": "Press shift for more info",
+
+  "trim_pattern.infernia.scorchedduck": "ScorchedDuck Armor Trim",
+  "trim_material.infernia.bismuth": "Bismuth Material"
 }

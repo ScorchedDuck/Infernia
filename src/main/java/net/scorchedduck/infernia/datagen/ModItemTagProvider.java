@@ -1,6 +1,7 @@
 package net.scorchedduck.infernia.datagen;
 
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.item.ModItems;
 import net.scorchedduck.infernia.util.ModTags;
@@ -75,6 +76,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BISMUTH_CHESTPLATE.get())
                 .add(ModItems.BISMUTH_LEGGINGS.get())
                 .add(ModItems.BISMUTH_BOOTS.get());
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.BISMUTH.get());
+
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.SCORCHEDDUCK_SMITHING_TEMPLATE.get());
         
 
     }

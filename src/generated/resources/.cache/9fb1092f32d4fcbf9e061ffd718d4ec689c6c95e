@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-21T19:56:34.328704	Recipes
+// 1.21.1	2024-10-19T09:18:55.9257694	Recipes
 b9964a66eaaa3a6d51708a8ba31eeb113dd5058a data/infernia/advancement/recipes/building_blocks/bismuth_slab.json
 0b987a2a20c7fd8b7c095d0650cf6fbcf07ba0da data/infernia/advancement/recipes/building_blocks/bismuth_stairs.json
 48518cf26c45761f93e357f1959d1d3659069e67 data/infernia/advancement/recipes/building_blocks/bismuth_wall.json
@@ -44,6 +44,7 @@ a386b8d775392d868895a6976766d5d8a631657b data/infernia/advancement/recipes/misc/
 fd66f903ddd61c9959f5735d8519c8c68387fba3 data/infernia/advancement/recipes/misc/sapphire_from_smelting_raw_sapphire.json
 5827e07c4c81370fc3d5d15b76ebce9e368e884f data/infernia/advancement/recipes/misc/sapphire_from_smelting_sapphire_ore.json
 ef7d8fe693a7fadf102dd1734214c4df5c51abf5 data/infernia/advancement/recipes/misc/sapphire_lamp_rec.json
+344280bffd8fd5ef9f5edea80ebfbbc20467820d data/infernia/advancement/recipes/misc/scorchedduck.json
 8b119755cf52744b9326efb1e46f46bafb3b4b42 data/infernia/advancement/recipes/misc/scorched_block_from_ingot.json
 35db7af4ae0d4e7cd66cff3a279081bfac0f4b5a data/infernia/advancement/recipes/misc/scorched_ingot_from_nugget.json
 ff3e3bc82b855c1fe33b11bff82de724fdbdaf46 data/infernia/advancement/recipes/misc/scorched_ingot_out_of_block.json
@@ -126,6 +127,7 @@ e9579706883c07d794118d220aa06e7733c21488 data/infernia/recipe/sapphire_pressure_
 5b826e47b1de0ca74205bb683ea4aabbedab34e7 data/infernia/recipe/sapphire_stairs.json
 06e8a09c2e92ae7816474efe12f22b5906f28f2c data/infernia/recipe/sapphire_trapdoor.json
 6178a3d0fed3873907bfbe7695ece900f8edf292 data/infernia/recipe/sapphire_wall.json
+c78f5abeaa53e01ca750baab0fec2885978cc7da data/infernia/recipe/scorchedduck.json
 dc8a67a8ec0feefce60163b98b5a94b975a5cb4c data/infernia/recipe/scorched_block_from_ingot.json
 3c76770e6ea86ff49eeac5d966d745b568860e13 data/infernia/recipe/scorched_button.json
 ff8b4832be5bbb3e9aec1684cc3dfb082c08fac2 data/infernia/recipe/scorched_door.json

@@ -3,6 +3,7 @@ package net.scorchedduck.infernia.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
@@ -306,6 +307,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
         trapdoorBuilder(ModBlocks.SCORCHED_TRAPDOOR.get(), Ingredient.of(ModItems.SCORCHED_INGOT.get())).group("scorched")
                 .unlockedBy("has_scorched", has(ModItems.SCORCHED_INGOT.get())).save(recipeOutput);
+
+
+
+
+        trimSmithing(recipeOutput, ModItems.SCORCHEDDUCK_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "scorchedduck"));
     }
 
 

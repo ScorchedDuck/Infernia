@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-12T09:46:53.8068417	Tags for minecraft:item mod id infernia
+// 1.21.1	2024-10-19T09:18:55.9197686	Tags for minecraft:item mod id infernia
 05abdd0d8560b0671f8c122f795fcb1bc2155276 data/infernia/tags/item/transformable_items.json
 9946145c7566918c63c318d4884ab93b1eb50ea5 data/minecraft/tags/item/axes.json
 be9adf16dbf4bd4f8e5a117643cfe5b9b23b804b data/minecraft/tags/item/hoes.json
@@ -6,3 +6,5 @@ be9adf16dbf4bd4f8e5a117643cfe5b9b23b804b data/minecraft/tags/item/hoes.json
 4983f6d2b0949a7ee2cffe7706359f4da452e6a6 data/minecraft/tags/item/shovels.json
 f58a30be284ed02d0368e6decf7719b05208959f data/minecraft/tags/item/swords.json
 c03a770d223ce3430a600622d574a4cd0972655d data/minecraft/tags/item/trimmable_armor.json
+63cc27597bf1fe5eda092487e9537fd9e96748d4 data/minecraft/tags/item/trim_materials.json
+cfa4d6ae41eeb64a836502e6262d5ca13efa3a1f data/minecraft/tags/item/trim_templates.json

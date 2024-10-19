@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-12T09:46:53.809861	Item Models: infernia
+// 1.21.1	2024-10-19T09:18:55.92077	Item Models: infernia
 1dac49ef081bdaa8e4b710dfe7838f44d13b5807 assets/infernia/models/item/bismuth.json
 356d2501a60c86e1bdff8fea4c179cc1e979bd49 assets/infernia/models/item/bismuth_axe.json
 ea4d86860a302c643c8acc827a36cd85519aaa74 assets/infernia/models/item/bismuth_boots.json
@@ -39,6 +39,7 @@ baed0c1b6435c6bb96bbeb34ef8ad50491d82057 assets/infernia/models/item/bismuth_hel
 59c066ef2d21faa92ac6622633e85e34b1ca7c92 assets/infernia/models/item/bismuth_helmet_quartz_trim.json
 7454e42f281bdef9b1b0c5e27282ede7e283593f assets/infernia/models/item/bismuth_helmet_redstone_trim.json
 05afa1e93c05af1fa4fbd4cedb05757c01f9520c assets/infernia/models/item/bismuth_hoe.json
+58ff1424a35dbcc76ad9f45f50424b76eb7358ac assets/infernia/models/item/bismuth_horse_armor.json
 8fc58157d52666b739db3e01883a39ad326a14bb assets/infernia/models/item/bismuth_leggings.json
 4d7c583dae5a71a729c7e8fbf4fc7782a3a4c6f4 assets/infernia/models/item/bismuth_leggings_amethyst_trim.json
 0b0a3d155b7b0d9e3d02ecf440c044d9b852f183 assets/infernia/models/item/bismuth_leggings_copper_trim.json
@@ -80,6 +81,7 @@ a8c3e3a2d35833b15b32af831e78c7d9684bb43e assets/infernia/models/item/sapphire_ho
 1be110b3b34fff5d4bf9187afac07a10276c58d9 assets/infernia/models/item/sapphire_shovel.json
 782d871464ff8194df7576bd71e9f79561b85c3f assets/infernia/models/item/sapphire_sword.json
 4aad72fb1488e4b36515813b920211a42ac7293b assets/infernia/models/item/sapphire_wall.json
+a34631ee4feb95aea092d9d4a67ac8379f9fe1a1 assets/infernia/models/item/scorchedduck_armor_trim_smithing_template.json
 d1babc3805d1d0e60ee46b3dc1aefee4e0036b4d assets/infernia/models/item/scorched_axe.json
 f7d200168ea4c2a53b2c86dff3e93c34012b2325 assets/infernia/models/item/scorched_button.json
 82d12b8bd4b762d12f37e16fbf7ad4063702d070 assets/infernia/models/item/scorched_door.json
