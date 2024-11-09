@@ -158,6 +158,8 @@ public class ModItems {
     public static final DeferredItem<Item> SCORCHEDDUCK_SMITHING_TEMPLATE = ITEMS.register("scorchedduck_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(Infernia.MOD_ID, "scorchedduck")));
 
+    public static final DeferredItem<Item> BISMUTH_BOW = ITEMS.register("bismuth_bow",
+            () -> new BowItem(new Item.Properties().durability(10000)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

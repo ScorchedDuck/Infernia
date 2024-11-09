@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "infernia:item/chisel"
+    "layer0": "infernia:item/chisel_used"
   }
 }

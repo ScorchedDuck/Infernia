@@ -67,6 +67,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_HORSE_ARMOR);
 
                         output.accept(ModItems.SCORCHEDDUCK_SMITHING_TEMPLATE);
+
+                        output.accept(ModItems.BISMUTH_BOW);
                         
                     }).build());
 

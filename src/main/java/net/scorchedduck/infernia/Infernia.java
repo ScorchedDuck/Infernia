@@ -5,6 +5,7 @@ import net.scorchedduck.infernia.block.ModBlocks;
 import net.scorchedduck.infernia.component.ModDataComponents;
 import net.scorchedduck.infernia.item.ModCreativeModeTabs;
 import net.scorchedduck.infernia.item.ModItems;
+import net.scorchedduck.infernia.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -72,6 +73,7 @@ public class Infernia {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ModItemProperties.addCustomItemProperties();
 
         }
     }
