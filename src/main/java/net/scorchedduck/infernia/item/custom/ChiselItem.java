@@ -16,6 +16,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.scorchedduck.infernia.component.ModDataComponents;
+import net.scorchedduck.infernia.sound.ModSounds;
 
 import java.util.List;
 import java.util.Map;
@@ -48,7 +49,7 @@ public class ChiselItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, context.getClickedPos(), ModSounds.CHSIEL_USE.get(), SoundSource.BLOCKS);
 
                 context.getItemInHand().set(ModDataComponents.COORIDNATES, context.getClickedPos());
             }

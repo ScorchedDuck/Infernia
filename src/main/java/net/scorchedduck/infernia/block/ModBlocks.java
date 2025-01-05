@@ -17,6 +17,7 @@ import net.scorchedduck.infernia.block.custom.ModCookerBlock;
 import net.scorchedduck.infernia.block.custom.RubyLampBlock;
 import net.scorchedduck.infernia.block.custom.SapphireLampBlock;
 import net.scorchedduck.infernia.item.ModItems;
+import net.scorchedduck.infernia.sound.ModSounds;
 import org.apache.commons.compress.compressors.lz77support.LZ77Compressor;
 
 import java.util.function.Supplier;
@@ -88,7 +89,7 @@ public class ModBlocks {
 
     //mod cooker block - done
     public static final DeferredBlock<Block> MOD_COOKER_BLOCK = registerBlock("mod_cooker_block",
-            () -> new ModCookerBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+            () -> new ModCookerBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(ModSounds.COOKER_BLOCK_SOUNDS)));
 
     public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
             () -> new BismuthLampBlock(BlockBehaviour.Properties.of().strength(2f)

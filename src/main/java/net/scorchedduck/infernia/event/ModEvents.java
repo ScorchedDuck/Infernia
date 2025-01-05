@@ -1,11 +1,17 @@
 package net.scorchedduck.infernia.event;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.entity.living.LivingDamageEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 import net.scorchedduck.infernia.Infernia;
 import net.scorchedduck.infernia.item.custom.HammerItem;
@@ -38,6 +44,15 @@ public class ModEvents {
                 HARVESTED_BLOCKS.add(pos);
                 serverPlayer.gameMode.destroyBlock(pos);
                 HARVESTED_BLOCKS.remove(pos);
+            }
+        }
+    }
+
+    public static void livingDamage(LivingDamageEvent.Pre event) {
+        if(event.getEntity() instanceof Sheep sheep && event.getSource().getDirectEntity() instanceof Player player) {
+            if(player.getMainHandItem().getItem() == Items.END_ROD) {
+                player.sendSystemMessage(Component.literal(player.getName().getString() + " why did you hit the sheep?"));
+                sheep.addEffect(new MobEffectInstance(MobEffects.POISON, 600, 10));
             }
         }
     }

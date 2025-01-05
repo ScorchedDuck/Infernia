@@ -1,0 +1,38 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.infernia.chisel_use",
+    "sounds": [
+      "infernia:chisel_use"
+    ]
+  },
+  "cooker_block_break": {
+    "subtitle": "sounds.infernia.cooker_block_break",
+    "sounds": [
+      "infernia:cooker_block_break"
+    ]
+  },
+  "cooker_block_place": {
+    "subtitle": "sounds.infernia.cooker_block_place",
+    "sounds": [
+      "infernia:cooker_block_place"
+    ]
+  },
+  "cooker_block_hit": {
+    "subtitle": "sounds.infernia.cooker_block_hit",
+    "sounds": [
+      "infernia:cooker_block_hit"
+    ]
+  },
+  "cooker_block_step": {
+    "subtitle": "sounds.infernia.cooker_block_step",
+    "sounds": [
+      "infernia:cooker_block_step"
+    ]
+  },
+  "cooker_block_fall": {
+    "subtitle": "sounds.infernia.cooker_block_fall",
+    "sounds": [
+      "infernia:cooker_block_fall"
+    ]
+  }
+}
